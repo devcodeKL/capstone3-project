@@ -1,0 +1,495 @@
+/* Import Montserrat and Roboto fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Universal Selector Reset */
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* AppNavbar Component Styles */
+.Navbar {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #98BAB4;
+  font-family: "Roboto 400" !important, sans-serif;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px #434f4a;
+}
+
+/* Banner Component Styles */
+.BannerTitle {
+    width: 50%;
+}
+
+.BannerContent {
+    font-family: "Roboto 400", sans-serif;
+    color: #402e20;
+}
+
+.btn {
+    background-color: #304356 !important;
+    border: none;
+    box-shadow: 4px 4px 0px 1px #c64b3e;
+}
+
+/* FeaturedProducts Component Styles */
+.FeaturedTitle {
+    padding-top: 50px;
+    width: 20%;
+    transform: translateX(200%);
+}
+
+/* Highlights Component Styles */
+.CarouselCaption1 {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    transform: translateX(30%);
+    width: 35%;
+    text-align: justify !important;
+    background-color: #3a2a07;
+    opacity: 85%;
+    margin: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.CarouselCaption1 h2 {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+    padding-top: 15px;
+}
+
+.CarouselCaption1 p {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+}
+
+.CarouselCaption2 {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    transform: translateX(130%);
+    width: 35%;
+    text-align: justify !important;
+    background-color: #141e15;
+    opacity: 90%;
+    margin: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.CarouselCaption2 h2 {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+    padding-top: 15px;
+}
+
+.CarouselCaption2 p {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+}
+
+.CarouselCaption3 {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    transform: translateX(30%);
+    width: 35%;
+    text-align: justify !important;
+    background-color: #141e15;
+    opacity: 90%;
+    margin: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.CarouselCaption3 h2 {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+    padding-top: 15px;
+}
+
+.CarouselCaption3 p {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+}
+
+.CarouselCaption4 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    transform: translateX(30%);
+    width: 35%;
+    text-align: justify !important;
+    background-color: #3f312e;
+    opacity: 85%;
+    margin: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.CarouselCaption4 h2 {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+    padding-top: 15px;
+}
+
+.CarouselCaption4 p {
+    font-family: "Roboto 400", sans-serif;
+    color: white;
+}
+
+/* PreviewProducts Component Styles */
+.CardHighlight {
+  min-height: 100%;
+}
+
+.CardImgTop {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-center {
+    font-family: "Roboto 400", sans-serif;
+    color: #402e20;
+}
+
+.CardFooter {
+    background-color: #eabf62 !important;
+}
+
+/* ProductView Pages Styles */
+.Preview {
+    margin-bottom: 300px;
+}
+
+/*UserView Component Styles */
+.SearchDiv2 {
+    margin-top: 155px;
+    padding-bottom: 150px;
+    background-color: #eabf62 !important;
+}
+
+.AvailableProducts {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 35%;
+    transform: translateX(92%);
+}
+
+/* ProductSearch Component Styles */
+.SearchHeading {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+.Search Button {
+    width: 50%;
+}
+
+.SearchDiv {
+    background-color: #eabf62 !important;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transform: translateX(50%);
+    align-items: center;
+}
+
+.form-group {
+    width: 50%;
+}
+
+/* SearchByPrice Component Styles */
+.SearchByPrice {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.PriceRange {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.PriceRangeDiv {
+    background-color: #eabf62 !important;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transform: translateX(50%);
+    align-items: center;
+}
+
+.PriceRangeDiv h2 {
+    font-family: "Roboto 400", sans-serif;
+    color: #402e20;
+}
+
+.PriceRangeInput input {
+    width: 150%;
+    transform: translateX(-18%);
+}
+
+.PriceBtn {
+    width: 150%;
+    transform: translateX(-18%);
+}
+
+.PriceRangeInput label {
+    transform: translateX(-52%);
+}
+
+.Low {
+    transform: translateX(-100%);
+}
+
+/* AdminView Component Styles */
+.AdminView {
+    margin-bottom: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0px 12px #b5b6b9;
+    background-color: #ffffff;
+}
+
+.AdminViewImage {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* AddProduct Component Styles */
+.AddProductCard {
+    margin-bottom: 90px;
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0px 12px #b5b6b9;
+    background-color: #ffffff;
+}
+
+.AddProductImage {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.AddProductBtn {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* CartItem Component Styles */
+.CartImage {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Cart Page Styles */
+.Cart {
+    background-color: #eabf62;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ShoppingTitle {
+    width: 50%;
+    transform: translateX(50%);
+    padding-bottom: 20px;
+}
+
+/* Order Page Styles */
+.OrderContainer {
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.OrderContainerCard {
+    background-color: #f4f4f5 !important;
+    border: none;
+}
+
+.OrderHistoryImage {
+    width: 50%;
+    padding-bottom: 15px;
+    margin-left: 25%;
+}
+
+/* Login Page Styles */
+.LoginDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.LoginCard {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #eabf62 !important;
+}
+
+.LoginTitle {
+    width: 50%;
+    padding-bottom: 10px;
+    transform: translateX(45%);
+}
+
+.LoginBtn {
+  margin-top: 30px;
+}
+
+.LoginLogo {
+  width: 10rem;
+  height: 10rem;
+  transform: translateY(35%);
+  transform: translateX(185%);
+}
+
+/* Profile Page Styles */
+.Profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.ProfileCard {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #eabf62 !important;
+}
+
+.ProfileTitle {
+  font-family: "Roboto 400", sans-serif;
+  font-size: 3rem;
+  color: #402e20;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.ProfileDetails {
+  font-family: "Roboto 400", sans-serif;
+  font-size: 5rem;
+  color: #402e20;
+  text-align: center;
+}
+
+.ProfileInfo h4 {
+  font-family: "Roboto 400" !important, sans-serif;
+  font-size: 30px;
+  color: #402e20;
+  text-align: center;
+}
+
+.ProfileInfo {
+  font-family: "Roboto 400" !important, sans-serif;
+  font-size: 25px;
+  color: #402e20;
+  text-align: center;
+}
+
+.ProfileLogo {
+  width: 10rem;
+  height: 10rem;
+  transform: translateY(35%);
+  transform: translateX(185%);
+}
+
+.ProfileDivider {
+  border: 3px solid black;
+}
+
+.ProfileIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Reset Password Component Styles */
+.ResetPasswordTitle {
+    transform: translateX(35%);
+}
+
+.ResetPasswordBtn {
+    transform: translateX(220%);
+}
+
+/* Register Page Styles */
+.Register {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;    
+}
+
+.RegisterCard {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #eabf62 !important;   
+}
+
+.RegisterTitle {
+    width: 50%;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    transform: translateX(50%);
+}
+
+/* Footer Component Styles */
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #98BAB4;
+    color: #fff;
+    height: 75px;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 2; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.footer .social-icon {
+    padding-top: 10px;
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
